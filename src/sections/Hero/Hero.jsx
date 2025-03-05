@@ -33,7 +33,7 @@ function Hero() {
         <h1>
           Rodrigo <br />Mendez
         </h1>
-        <h2>Developer</h2>
+        <h2>Desarrollador</h2>
         <span>
           <a href="https://www.linkedin.com/in/mendez-rodrigo/" target="_blank">
             <img src={linkedinIcon} alt="Icono de Linkedin" />
@@ -45,7 +45,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}> 
-          Mis amigos me dicen Vairo. <br />Me gustan los desafíos y disfruto crear soluciones que marquen la diferencia. ¡Trabajemos juntos!
+          Mis amigos me dicen Vairo. <br />Me gustan los desafíos, me impulsan a crecer y evolucionar con cada proyecto. ¡Trabajemos juntos!
         </p>
         <a href={CV} download>
           <button className='hover'>
