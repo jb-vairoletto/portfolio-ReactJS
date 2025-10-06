@@ -24,7 +24,8 @@ function Contact() {
             </label>
             <textarea name="message" id="message" placeholder='Mensaje' required>
             </textarea>
-            </div>
+          </div>
+            
           <input type="submit" className='hover btn' value="Enviar"/>
         </form>
     </section>

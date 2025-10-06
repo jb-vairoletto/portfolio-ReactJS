@@ -1,6 +1,9 @@
 import React from 'react'
 import styles from './ProjectsStyles.module.css'
 import workinprogress from '../../assets/wip.png'
+import sarasaimg from '../../assets/projectsimgs/sarasa.png'
+import gestorimg from '../../assets/projectsimgs/gestor_c.png'
+import bookecommimg from '../../assets/projectsimgs/bookecomm.png'
 import ProjectCard from '../../common/ProjectCard'
 
 function Projects() {
@@ -9,28 +12,22 @@ function Projects() {
         <h1 className='sectionTitle'>Proyectos</h1>
         <div className={styles.projectsContainer}>
             <ProjectCard 
-            src={workinprogress}
+            src={sarasaimg}
             title="Sarasa DB_"
             link="https://equipo6-23026.github.io/tpo1/"
             description="Web construida con HTML/CSS/JAVASCRIPT"
             />
             <ProjectCard 
-            src={workinprogress}
+            src={gestorimg}
             title="Gestion de inventario"
             link="https://github.com/jb-vairoletto/stockMgmt-C"
             description="Aplicacion CLI hecha en C"
             />
             <ProjectCard 
-            src={workinprogress}
-            title="Arctic Tours"
-            link="https://github.com/jb-vairoletto/arcticTours-reactApp"
-            description="Web construida con React"
-            />
-            <ProjectCard 
-            src={workinprogress}
-            title="Real Time Chat"
-            link="https://github.com/jb-vairoletto/realTimeChat-NodeJS"
-            description="Web construida con NodeJS"
+            src={bookecommimg}
+            title="Tienda de libros"
+            link="https://github.com/jb-vairoletto/Ecommerce-Mern"
+            description="Web construida con Express/React/MongoDB"
             />
         </div>
     </section>
